@@ -2,15 +2,13 @@
 
 > Group Member: Xue LIAO, Linjie QIU, Yihang LIU, Zhe DING
 
-[TOC]
-
 ## Workflow for 3D Gaussian Splatting Dataset Management
 
 ### 1. Prerequisites
 #### For All Users
-• Install [Git](https://git-scm.com/)
-• Install [Git LFS](https://git-lfs.com/)
-• Request repository access from project admin
+- Install [Git](https://git-scm.com/)
+- Install [Git LFS](https://git-lfs.com/)
+- Request repository access from project admin
 
 ```bash
 # One-time LFS initialization
@@ -22,8 +20,7 @@ git lfs install
 ### 2. For Artists (Non-Technical Workflow)
 #### A. First-Time Setup
 1. Install [GitHub Desktop](https://desktop.github.com/)
-2. Clone repository:
-   • File > Clone Repository > Select project
+2. Clone repository: File > Clone Repository > Select project
 3. Install [Git LFS Client](https://git-lfs.com/)
 
 #### B. Daily Operations
@@ -35,9 +32,11 @@ git lfs install
    /assets/textures/*.bin
    ```
 2. In GitHub Desktop:
-   • ✔️ Select changed files
-   • ✏️ Write commit message (e.g., "Add scan_0234 assets")
-   • Click "Push origin"
+
+   - ✔️ Select changed files
+   - ✏️ Write commit message (e.g., "Add scan_0234 assets")
+   - Click "Push origin"
+
 
 **Update from Others**
 
@@ -118,9 +117,11 @@ git lfs ls-files
 
 ### 6. Best Practices
 1. **File Size Limits**
-   • Keep individual files <5GB
-   • Split large datasets into chunks
-   
+
+   - Keep individual files <5GB
+
+   - Split large datasets into chunks
+
 2. **Avoid in .gitignore**
    ```plaintext
    *.tmp
