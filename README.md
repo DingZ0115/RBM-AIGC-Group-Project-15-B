@@ -52,8 +52,8 @@ Check file status in repository > "Git LFS" tab on GitHub.com
 ### 3. For Engineers (CLI Workflow)
 #### A. Repository Setup
 ```bash
-git clone https://github.com/yourorg/3d-gaussian-dataset.git
-cd 3d-gaussian-dataset
+git clone https://github.com/DingZ0115/RBM-AIGC-Group-Project-15-B.git
+cd RBM-AIGC-Group-Project-15-B
 git lfs pull
 ```
 
